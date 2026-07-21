@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: practica-cicd-deployment
+  name: cicd-practica-sd
   labels:
-    app: practica-cicd-deployment
+    app: cicd-practica-sd
 spec:
   replicas: 4
   strategy:
